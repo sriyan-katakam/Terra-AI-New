@@ -359,7 +359,7 @@ function showWelcomeMessage(user) {
 
     greetedUserId = user.uid;
     chatMessages.innerHTML = '';
-    const greetingMessage = 'Hello! 👋 I’m glad you’re here. How can I help you today?';
+    const greetingMessage = 'Hello! I’m glad you’re here. How can I help you today?';
 
     addMessage(greetingMessage);
     speakText(greetingMessage);
